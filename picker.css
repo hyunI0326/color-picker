@@ -1,0 +1,28 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #202321; background: #f7f8f5; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { padding: 27px 24px 20px; }
+.brand { color: #466c50; font-size: 11px; font-weight: 800; letter-spacing: .14em; display: flex; align-items: center; gap: 7px; }
+.brand-icon { font-size: 20px; line-height: 1; }
+h1 { font-size: 25px; line-height: 1.4; letter-spacing: -.06em; margin: 24px 0 8px; }
+h1 span { color: #678e6d; }
+header p { color: #777f78; font-size: 13px; margin: 0 0 23px; }
+button { font: inherit; cursor: pointer; }
+button:focus-visible { outline: 3px solid #96b89c; outline-offset: 3px; }
+.pick-button { width: 100%; border: 0; border-radius: 12px; background: #263e2d; color: white; font-weight: 700; font-size: 14px; padding: 17px; display: flex; justify-content: space-between; align-items: center; }
+.pick-button:hover { background: #34543b; }
+.pick-button:disabled { opacity: .6; cursor: wait; }
+.hint { color: #929992; font-size: 11px; margin: 10px 0 32px; line-height: 1.6; }
+kbd { font: inherit; padding: 2px 4px; border: 1px solid #dfe4dd; border-radius: 4px; }
+.section-heading { display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e5e9e2; padding-bottom: 12px; }
+h2 { font-size: 15px; margin: 0; }
+#count { color: #75917a; font-size: 12px; font-weight: 700; }
+.empty { text-align: center; color: #9aa19a; font-size: 13px; line-height: 1.7; padding: 35px 0; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { display: flex; align-items: center; gap: 11px; padding: 11px 0; border-bottom: 1px solid #e9ece7; }
+.swatch { width: 38px; height: 38px; border-radius: 10px; border: 1px solid #00000012; flex: none; }
+.code { flex: 1; font-size: 14px; font-weight: 700; letter-spacing: .04em; }
+.small-button { background: white; border: 1px solid #e4e9e2; border-radius: 7px; color: #59655b; font-size: 12px; padding: 7px 9px; }
+.small-button:hover { background: #edf2eb; }
+.status { color: #557b5e; font-size: 12px; min-height: 18px; margin: 14px 0 0; }
+footer { color: #a3aaa3; font-size: 11px; margin-top: 12px; }

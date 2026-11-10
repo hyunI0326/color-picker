@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "컬러 픽",
+  "version": "1.0.0",
+  "description": "화면에서 색상을 선택하고 HEX 코드를 저장합니다.",
+  "minimum_chrome_version": "102",
+  "permissions": ["storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "컬러 픽 열기" }
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>컬러 픽</title>
+  <link rel="stylesheet" href="picker.css">
+  <script src="picker.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand"><span class="brand-icon" aria-hidden="true">✳</span> COLOR PICK</div>
+      <h1>마음에 드는 색을<br><span>발견하고 저장하세요.</span></h1>
+      <p>화면 어디에서나 원하는 색을 골라보세요.</p>
+    </header>
+    <button class="pick-button" id="pick" type="button" disabled><span aria-hidden="true">✦</span> 화면에서 색상 선택하기 <span aria-hidden="true">↗</span></button>
+    <p class="hint">버튼을 누른 뒤 원하는 위치를 클릭하세요. <kbd>Esc</kbd> 취소</p>
+    <section aria-labelledby="saved-heading">
+      <div class="section-heading"><h2 id="saved-heading">저장한 색상</h2><span id="count">0</span></div>
+      <p class="empty" id="empty">아직 저장한 색상이 없어요.<br>첫 번째 색상을 선택해 보세요.</p>
+      <ul id="colors" aria-label="저장한 색상 목록"></ul>
+    </section>
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+    <footer>색상은 이 기기에 저장됩니다.</footer>
+  </main>
+</body>
+</html>
